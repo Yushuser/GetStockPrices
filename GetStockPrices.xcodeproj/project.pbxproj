@@ -13,7 +13,41 @@
 		39C7B94C29453EA700A337DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B94A29453EA700A337DE /* Main.storyboard */; };
 		39C7B94E29453EA900A337DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B94D29453EA900A337DE /* Assets.xcassets */; };
 		39C7B95129453EA900A337DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B94F29453EA900A337DE /* LaunchScreen.storyboard */; };
+		39C7B959294542A100A337DE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7B958294542A100A337DE /* DetailsViewController.swift */; };
+		39C7B95B2945545200A337DE /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7B95A2945545200A337DE /* Stock.swift */; };
+		90D00C2A2E6133F87551762D /* Pods_GetStockPrices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15FADF6DD1E8FF2D5998FB3 /* Pods_GetStockPrices.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3987212A29455EF700FB0F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C7B97E29455BF300A337DE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		3987212C29455EF700FB0F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C7B97E29455BF300A337DE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0F318FDA3F2A8C8DFB5882AA864EEDB8;
+			remoteInfo = "Pods-GetStockPrices";
+		};
+		3987212E29455EF700FB0F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C7B97E29455BF300A337DE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0C6496C31855334E353C2F02D98D6231;
+			remoteInfo = SwiftSpinner;
+		};
+		3987213029455EF700FB0F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C7B97E29455BF300A337DE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E23C076BA70925415F490FEDB215DA92;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		39C7B94129453EA700A337DE /* GetStockPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetStockPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +58,12 @@
 		39C7B94D29453EA900A337DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C7B95029453EA900A337DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C7B95229453EA900A337DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C7B958294542A100A337DE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		39C7B95A2945545200A337DE /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		39C7B97E29455BF300A337DE /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		8B8B75DEBE30E3C84C66C77E /* Pods-GetStockPrices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetStockPrices.release.xcconfig"; path = "Target Support Files/Pods-GetStockPrices/Pods-GetStockPrices.release.xcconfig"; sourceTree = "<group>"; };
+		C15FADF6DD1E8FF2D5998FB3 /* Pods_GetStockPrices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetStockPrices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F03D05F23A5D4091BDB721 /* Pods-GetStockPrices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetStockPrices.debug.xcconfig"; path = "Target Support Files/Pods-GetStockPrices/Pods-GetStockPrices.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D00C2A2E6133F87551762D /* Pods_GetStockPrices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3987212429455EF500FB0F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3987212B29455EF700FB0F94 /* Alamofire */,
+				3987212D29455EF700FB0F94 /* Pods-GetStockPrices */,
+				3987212F29455EF700FB0F94 /* SwiftSpinner */,
+				3987213129455EF700FB0F94 /* SwiftyJSON */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		39C7B93829453EA700A337DE = {
 			isa = PBXGroup;
 			children = (
 				39C7B94329453EA700A337DE /* GetStockPrices */,
 				39C7B94229453EA700A337DE /* Products */,
+				668AD2F023E2EF62909BF5D8 /* Pods */,
+				449DCCD300006FFA16807A66 /* Frameworks */,
+				39C7B97E29455BF300A337DE /* Pods.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +118,27 @@
 				39C7B94D29453EA900A337DE /* Assets.xcassets */,
 				39C7B94F29453EA900A337DE /* LaunchScreen.storyboard */,
 				39C7B95229453EA900A337DE /* Info.plist */,
+				39C7B958294542A100A337DE /* DetailsViewController.swift */,
+				39C7B95A2945545200A337DE /* Stock.swift */,
 			);
 			path = GetStockPrices;
+			sourceTree = "<group>";
+		};
+		449DCCD300006FFA16807A66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15FADF6DD1E8FF2D5998FB3 /* Pods_GetStockPrices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668AD2F023E2EF62909BF5D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F03D05F23A5D4091BDB721 /* Pods-GetStockPrices.debug.xcconfig */,
+				8B8B75DEBE30E3C84C66C77E /* Pods-GetStockPrices.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39C7B95529453EA900A337DE /* Build configuration list for PBXNativeTarget "GetStockPrices" */;
 			buildPhases = (
+				A193E223D8A83469AA676E3E /* [CP] Check Pods Manifest.lock */,
 				39C7B93D29453EA700A337DE /* Sources */,
 				39C7B93E29453EA700A337DE /* Frameworks */,
 				39C7B93F29453EA700A337DE /* Resources */,
+				81A44EB8386C4723DB059B81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +189,53 @@
 			mainGroup = 39C7B93829453EA700A337DE;
 			productRefGroup = 39C7B94229453EA700A337DE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3987212429455EF500FB0F94 /* Products */;
+					ProjectRef = 39C7B97E29455BF300A337DE /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				39C7B94029453EA700A337DE /* GetStockPrices */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3987212B29455EF700FB0F94 /* Alamofire */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Alamofire;
+			path = Alamofire.framework;
+			remoteRef = 3987212A29455EF700FB0F94 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3987212D29455EF700FB0F94 /* Pods-GetStockPrices */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-GetStockPrices";
+			path = Pods_GetStockPrices.framework;
+			remoteRef = 3987212C29455EF700FB0F94 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3987212F29455EF700FB0F94 /* SwiftSpinner */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = SwiftSpinner;
+			path = SwiftSpinner.framework;
+			remoteRef = 3987212E29455EF700FB0F94 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3987213129455EF700FB0F94 /* SwiftyJSON */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = SwiftyJSON;
+			path = SwiftyJSON.framework;
+			remoteRef = 3987213029455EF700FB0F94 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		39C7B93F29453EA700A337DE /* Resources */ = {
@@ -133,6 +250,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81A44EB8386C4723DB059B81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetStockPrices/Pods-GetStockPrices-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetStockPrices/Pods-GetStockPrices-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetStockPrices/Pods-GetStockPrices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A193E223D8A83469AA676E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetStockPrices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39C7B93D29453EA700A337DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +300,8 @@
 				39C7B94929453EA700A337DE /* ViewController.swift in Sources */,
 				39C7B94529453EA700A337DE /* AppDelegate.swift in Sources */,
 				39C7B94729453EA700A337DE /* SceneDelegate.swift in Sources */,
+				39C7B95B2945545200A337DE /* Stock.swift in Sources */,
+				39C7B959294542A100A337DE /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +443,7 @@
 		};
 		39C7B95629453EA900A337DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F03D05F23A5D4091BDB721 /* Pods-GetStockPrices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +472,7 @@
 		};
 		39C7B95729453EA900A337DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8B75DEBE30E3C84C66C77E /* Pods-GetStockPrices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

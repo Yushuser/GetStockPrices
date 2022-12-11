@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5CFBCE21-2187-446F-821E-439390273716"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43151206-0776-4D12-94A3-5642628EFA11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetStockPrices/DetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "43151206-0776-4D12-94A3-5642628EFA11 - 1b996c90fd79cef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetStockPrices.DetailsViewController.lblPrice.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "GetStockPrices"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yushuwu/Downloads/SmartPhone-2022Fall/GetStockPrices/GetStockPrices/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "43151206-0776-4D12-94A3-5642628EFA11 - ba1e37da756fa2e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetStockPrices.DetailsViewController.lblPrice.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "GetStockPrices"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yushuwu/Downloads/SmartPhone-2022Fall/GetStockPrices/GetStockPrices/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "43151206-0776-4D12-94A3-5642628EFA11 - e0b93853cd4fa5f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetStockPrices.DetailsViewController.lblPrice.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "GetStockPrices"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yushuwu/Downloads/SmartPhone-2022Fall/GetStockPrices/GetStockPrices/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "43151206-0776-4D12-94A3-5642628EFA11 - 4e4644323e41aa90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetStockPrices.DetailsViewController.lblPrice.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "GetStockPrices"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yushuwu/Downloads/SmartPhone-2022Fall/GetStockPrices/GetStockPrices/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "43151206-0776-4D12-94A3-5642628EFA11 - 2bc5b1fd4d67f97f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetStockPrices.DetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; GetStockPrices.DetailsViewController"
+                  moduleName = "GetStockPrices"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yushuwu/Downloads/SmartPhone-2022Fall/GetStockPrices/GetStockPrices/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "43151206-0776-4D12-94A3-5642628EFA11 - 54623b974b27c7c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetStockPrices.DetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;GetStockPrices.DetailsViewController&gt;"
+                  moduleName = "GetStockPrices"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yushuwu/Downloads/SmartPhone-2022Fall/GetStockPrices/GetStockPrices/DetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
